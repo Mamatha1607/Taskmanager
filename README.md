@@ -28,23 +28,7 @@ A full-stack task manager web application that allows users to securely manage p
 
 ---
 
-## 📁 Folder Structure
-
-collaborative-task-manager/ 
-│ ├── backend/ # Node.js + Express + PostgreSQL
-│ ├── routes/ # REST API routes (tasks, users) 
-│ ├── middleware/ # Auth middleware (JWT) 
-│ ├── graphql/ # (Optional) GraphQL schema 
-│ ├── db.js # PostgreSQL connection 
-│ ├── server.js # Main backend server 
-│ └── .env # Environment variables 
-│ ├── frontend/ # React application 
-│ ├── src/ 
-│ │ ├── pages/ # Home, Login, Register, Dashboard 
-│ │ └── App.js 
-│ ├── public/ 
-│ └── package.json 
-│ └── README.md
+collaborative-task-manager/ │ ├── backend/ # Node.js + Express + PostgreSQL │ ├── routes/ # REST API routes (tasks, users) │ ├── middleware/ # Auth middleware (JWT) │ ├── graphql/ # (Optional) GraphQL schema │ ├── db.js # PostgreSQL connection │ ├── server.js # Main backend server │ └── .env # Environment variables │ ├── frontend/ # React application │ ├── src/ │ │ ├── pages/ # Home, Login, Register, Dashboard │ │ └── App.js │ ├── public/ │ └── package.json │ └── README.md
 
 setup backend:cd backend
 npm install
