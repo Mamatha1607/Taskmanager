@@ -28,9 +28,9 @@ A full-stack task manager web application that allows users to securely manage p
 
 ---
 
-collaborative-task-manager/ 
-│ ├── backend/ # Node.js + Express + PostgreSQL 
-│ ├── routes/ # REST API routes (tasks, users) 
+collaborative-task-manager/.  
+│ ├── backend/ # Node.js + Express + PostgreSQL  
+│ ├── routes/ # REST API routes (tasks, users)   
 │ ├── middleware/ # Auth middleware (JWT) 
 │ ├── graphql/ # (Optional) GraphQL schema
 │ ├── db.js # PostgreSQL connection 
