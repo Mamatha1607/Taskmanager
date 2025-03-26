@@ -1,4 +1,4 @@
-# 🧠 Collaborative Task Manager ✅
+# Collaborative Task Manager 
 
 A full-stack task manager web application that allows users to securely manage personal tasks with features like authentication, CRUD operations, and responsive UI — built with **React**, **Node.js**, and **PostgreSQL**.
 
@@ -54,7 +54,7 @@ DB_HOST=localhost
 DB_PORT=5432  
 DB_DATABASE=task_manager_db  
 JWT_SECRET=your_secret_key  
-# Make sure PostgreSQL is running  
+ Make sure PostgreSQL is running  
 npm start  
 
 3. Setup Frontend  
