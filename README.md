@@ -31,34 +31,34 @@ A full-stack task manager web application that allows users to securely manage p
 collaborative-task-manager/.  
 │ ├── backend/ # Node.js + Express + PostgreSQL  
 │ ├── routes/ # REST API routes (tasks, users)   
-│ ├── middleware/ # Auth middleware (JWT) 
-│ ├── graphql/ # (Optional) GraphQL schema
-│ ├── db.js # PostgreSQL connection 
-│ ├── server.js # Main backend server
-│ └── .env # Environment variables 
-│ ├── frontend/ # React application 
-│ ├── src/ 
-│ │ ├── pages/ # Home, Login, Register, Dashboard 
-│ │ └── App.js 
-│ ├── public/
-│ └── package.json 
-│ └── README.md
+│ ├── middleware/ # Auth middleware (JWT)   
+│ ├── graphql/ # (Optional) GraphQL schema  
+│ ├── db.js # PostgreSQL connection   
+│ ├── server.js # Main backend server  
+│ └── .env # Environment variables     
+│ ├── frontend/ # React application   
+│ ├── src/   
+│ │ ├── pages/ # Home, Login, Register, Dashboard   
+│ │ └── App.js   
+│ ├── public/  
+│ └── package.json   
+│ └── README.md  
 
-setup backend:cd backend
-npm install
-touch .env
-Add this to your .env file:
-DB_USER=postgres
-DB_PASSWORD=your_db_password
-DB_HOST=localhost
-DB_PORT=5432
-DB_DATABASE=task_manager_db
-JWT_SECRET=your_secret_key
-# Make sure PostgreSQL is running
-npm start
+setup backend:cd backend  
+npm install  
+touch .env  
+Add this to your .env file:  
+DB_USER=postgres  
+DB_PASSWORD=your_db_password  
+DB_HOST=localhost  
+DB_PORT=5432  
+DB_DATABASE=task_manager_db  
+JWT_SECRET=your_secret_key  
+# Make sure PostgreSQL is running  
+npm start  
 
-3. Setup Frontend
-cd ../frontend
-npm install
-npm start
-Go to: http://localhost:3000
+3. Setup Frontend  
+cd ../frontend  
+npm install  
+npm start  
+Go to: http://localhost:3000  
